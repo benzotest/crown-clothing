@@ -1,0 +1,34 @@
+.shop-item{
+	width: 22%;
+	display: flex;
+	flex-direction: column;
+	height: 350px;
+	align-items: center;
+
+	.shop-item-image{
+		width: 100%;
+		height: 95%;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		margin-bottom: 5px;
+
+	}
+
+	.shop-item-footer{
+		width: 100%;
+		height: 5%;
+		display: flex;
+		justify-content: space-between;
+		font-size: 18px;
+
+		.shopt-item-name{
+			width: 80%;
+			margin-bottom: 15px;
+		}
+		.shopt-item-price{
+			width: 10%;
+			margin-right: 3%;
+		}
+	}
+}
