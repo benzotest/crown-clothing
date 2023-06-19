@@ -4,6 +4,7 @@
 	flex-direction: column;
 	height: 350px;
 	align-items: center;
+	margin: 15px;
 
 	.shop-item-image{
 		width: 100%;
@@ -12,7 +13,7 @@
 		background-size: cover;
 		background-position: center;
 		margin-bottom: 5px;
-
+		position: relative;
 	}
 
 	.shop-item-footer{
@@ -29,6 +30,22 @@
 		.shopt-item-price{
 			width: 10%;
 			margin-right: 3%;
+		}
+	}
+	#button-shop-item{
+		width: 80%;
+		opacity: 0.7;
+		position: absolute;
+		margin-top: 20%;
+		display: none;
+	}
+	&:hover{
+		.shop-item-image{
+			opacity: 0.8;
+		}
+		#button-shop-item{
+			opacity: 0.8;
+			display: flex;
 		}
 	}
 }

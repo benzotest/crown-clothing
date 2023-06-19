@@ -1,0 +1,3 @@
+export const APP_CONSTANTS = {
+	SET_USER_OBJECT:`SET_USER_OBJECT`
+};

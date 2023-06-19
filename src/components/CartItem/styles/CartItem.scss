@@ -1,0 +1,29 @@
+#cart-item-main-div{
+	border: solid black 1px;
+	width: 100%;
+	height: 80px;
+	margin-bottom: 15px;
+	display: flex;
+	flex-direction: row;
+
+	img{
+		width: 30%;
+	}
+
+	#cart-item-info-div{
+		width: 70%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		padding: 10px 5px 10px 5px;
+
+		span{
+			text-align: center;
+			width: 100%;
+			margin-top: 10px
+
+		}
+
+	}
+}

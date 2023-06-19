@@ -1,0 +1,21 @@
+.header-main-div{
+	height: 70px;
+	width: 100%;
+	border-bottom: 1px solid black;
+	margin-bottom: 45px;
+	.header-options{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		.header-options-shop{
+			border-bottom: 1px solid black;
+		}
+		.header-options-contact{
+			border-bottom: 1px solid black;
+		}
+	}
+}
+
+
